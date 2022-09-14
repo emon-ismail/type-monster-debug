@@ -95,7 +95,7 @@ body {
 }
 .inactive {
   border: 2px solid white !important;
-  margin-left: 2000px;
+  /* margin-left: 2000px; */
 }
 .hidden {
   display: none;
@@ -146,8 +146,13 @@ button {
 }
 
 #histories {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,200px);
+  grid-gap: 20px;
+  
+
   flex-wrap: wrap;
+ /* flex-wrap: nowrap;  */
   justify-content: space-around;
 }
 
@@ -155,9 +160,11 @@ button {
   width: 100%;
   height: 100%;
   padding: 50px;
+
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
@@ -191,6 +198,13 @@ button {
     width: 100%;
   }
   .card {
-    flex-direction: column;
+    flex-direction: colum;
+  }
+  #histories {
+    display: grid;
+    grid-template-columns:repeat(1,auto);
+    grid-gap: 10px;
+    
+    justify-content: space-around;
   }
 }
