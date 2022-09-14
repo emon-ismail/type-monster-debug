@@ -41,7 +41,7 @@
     <figure class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-t-lg border-b border-gray-200 md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
         <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">1.Difference between local storage and session storage?</h3>
-            <p  class="my-10 font-light text-orange-500  ">sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.</p>
+            <h1  class="my-10 font-light text-orange-500  ">sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.</h1>
         </blockquote>
         <figcaption class="flex justify-center items-center space-x-3">
       
@@ -53,7 +53,7 @@
     <figure class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-tr-lg border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
         <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">2.difference between local scope and block scope? </h3>
-            <p class="my-4 font-light text-orange-500 ">The main difference between the local scope and block scope is that the block statements (e.g. if conditions or for loops), don't create a new scope. So the var keyword will not have an effect, because the variables are still in the same scope. ES6 introduced block scope by using the let and const keywords.</p>
+            <h1 class="my-4 font-light text-orange-500 ">The main difference between the local scope and block scope is that the block statements (e.g. if conditions or for loops), don't create a new scope. So the var keyword will not have an effect, because the variables are still in the same scope. ES6 introduced block scope by using the let and const keywords.</h1>
         </blockquote>
         <figcaption class="flex justify-center items-center space-x-3">
           
@@ -65,8 +65,8 @@
     </figure>
     <figure class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-bl-lg border-b border-gray-200 md:border-b-0 md:border-r dark:bg-gray-800 dark:border-gray-700">
         <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">3.What is difference between map and forEach and filter?</h3>
-            <p class="my-4 font-light  text-orange-500 ">The main difference between map and forEach is that the map method returns a new array by applying the callback function on each element of an array, while the forEach method doesn't return anything. You can use the forEach method to mutate the source array, but this isn't really the way it's meant to be used.map creates a new array by transforming every element in an array individually. filter creates a new array by removing elements that don't belong. reduce , on the other hand, takes all of the elements in an array and reduces them into a single value. Just like map and filter , reduce is defined on Array.</p>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">3.How js event loop works?</h3>
+            <h1 class="my-4 font-light  text-orange-500 ">The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.</h1>
         </blockquote>
         <figcaption class="flex justify-center items-center space-x-3">
            
@@ -77,8 +77,12 @@
     </figure>
     <figure class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-b-lg border-gray-200 md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
         <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">4.Why do we use template string in Javascript?</h3>
-            <p class="my-4 font-light  text-orange-500 ">Template strings are a powerful feature of modern JavaScript released in ES6. It lets us insert/interpolate variables and expressions into strings without needing to concatenate like in older versions of JavaScript. It allows us to create strings that are complex and contain dynamic elements.</p>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">4.How to get undefined js??</h3>
+            <p class="my-4 font-light  text-orange-500 ">undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined.
+
+                In all non-legacy browsers, undefined is a non-configurable, non-writable property. (Even when this is not the case, avoid overriding it.)
+                
+                A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned..</p>
         </blockquote>
         <figcaption class="flex justify-center items-center space-x-3">
             
